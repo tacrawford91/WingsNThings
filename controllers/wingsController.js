@@ -15,7 +15,7 @@ router.get("/", (req,res) => {
 });
 
 router.post("/api/add", (req,res)=> {
-    Wing.create("wings_name",req.body.wingFlavor,"devoured",req.body.eaten, (err,data) => {
+    Wing.create("wings_name",req.body.wingFlavor,"devoured", req.body.eaten, (err,data) => {
     if (err) throw err;
     console.log("data added");
     console.log(data);

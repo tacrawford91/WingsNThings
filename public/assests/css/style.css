@@ -1,0 +1,68 @@
+@font-face {
+    font-family: foodFont;
+    src: url("../fonts/hot-pizza.normal.ttf");
+}
+body {
+    font-family: foodFont;
+}
+.bkgImage {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 200px;
+  left: 0;
+  z-index: 0;
+}
+.none {
+    float: none;
+    display: inline-block;
+    font-size: 30px;
+}
+.right {
+    float: right;
+}
+.wingHolder {
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+.unEaten {
+    /* background-color:rgba(183,88,62,0.3); */
+}
+.eaten {
+    /* background-color: rgba(183,88,62,0.3); */
+    /* background: url("../images/ranch.PNG"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.1); */
+}
+.panel {
+    padding: 0;
+    text-align: center;
+    background-color: #F7F2B0;
+    border: solid #7C2A18 3px;
+    margin-top: 20%;
+}
+.newFlavor {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.btn {
+    background: url("../images/ranch.PNG"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
+    font-size: 29px;
+}
+.content {
+    background-color: rgba(183,88,62,1);
+    z-index: 100;
+}
+.jumbotron {
+    background: rgba(183,88,62,0.5);
+    height: 200px;
+    z-index: 100;
+}
