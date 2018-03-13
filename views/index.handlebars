@@ -14,7 +14,7 @@
                 {{#each wings}}
                     {{#unless devoured}}
                     <div class="wingHolder {{id}}">
-                        <h4 class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center none">{{wings_name}}</h4><button type="button" class="btn btn-primary col-xs-5 col-sm-5 col-md-6 col-lg-5 eat none" data-attr="{{id}}">eat</button> 
+                        <h4 class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center none">{{wings_name}}</h4> <button type="button" class="btn btn-primary col-xs-4 col-sm-4 col-md-4 col-lg-4 right eat" data-attr="{{id}}">eat</button><div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"></div>
                     </div>
                     {{/unless}}
                 {{/each}}
@@ -37,7 +37,7 @@
                 {{#each wings}}
                     {{#if devoured}}
                     <div class="wingHolder {{id}}">
-                        <h4 class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center none">{{wings_name}}</h4> <button type="button" class="btn btn-primary col-xs-5 col-sm-5 col-md-6 col-lg-5 none order" data-attr="{{id}}">ORDER AGAIN!</button>
+                        <h4 class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center none">{{wings_name}}</h4> <button type="button" class="btn btn-primary col-xs-4 col-sm-4 col-md-4 col-lg-4 right order" data-attr="{{id}}">ORDER AGAIN!</button>
                     </div>
                     {{/if}}
                 {{/each}}
