@@ -48,6 +48,7 @@ body {
 .newFlavor {
     margin-bottom: 10px;
     text-align: center;
+    color: black;
 }
 .btn {
     background: url("../images/ranch.PNG"); 

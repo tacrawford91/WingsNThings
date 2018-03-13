@@ -5,6 +5,7 @@ $(".submit").on("click", function() {
             wingFlavor: $(".newFlavor").val().trim(),
             eaten: 0
         } 
+        $(".newFlavor").empty();
     $.ajax({
         url: "/api/add",
         method: "POST",
